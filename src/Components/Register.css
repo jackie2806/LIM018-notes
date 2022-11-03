@@ -1,0 +1,155 @@
+img {
+    position: absolute;
+    width: 12.21px;
+    height: 11.35px;
+    left: 16px;
+    top: 60px;    
+}
+h1{
+    position:relative;
+    width: 148px;
+    height: 40px;
+    left: 16px;
+    top: 104px;   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.labelEmailRegister{
+    position: relative;
+    width: 41px;
+    height: 23px;
+    left: 20px;
+    top: 160px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+    
+}
+.inputEmailRegister{
+    position: relative;
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 165px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+     /* left: 4.96%;
+    right: 56.56%;
+    top: 32.69%;
+    bottom: 32.69%;  */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.labelPasswordRegister{
+    position: relative;
+    width: 71px;
+    height: 19px;
+    left: 17px;
+    top: 210px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+/* .inputsRegister{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+} */
+.inputPasswordRegister{
+    position: relative;
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 215px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+     /* left: 4.96%;
+    right: 56.56%;
+    top: 32.69%;
+    bottom: 32.69%;  */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+button{
+    position: relative;
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 250px; 
+    
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p{
+    position: relative;
+    width: 281px;
+    height: 18px;
+    left: 41px;
+    top: 280px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+   
+    text-align: center;
+
+    color: #000000;
+}
