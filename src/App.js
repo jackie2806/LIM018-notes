@@ -24,8 +24,7 @@ function App() {
       <Wall>
         <CreateNoteButton/>
         <Note>
-          
-      
+                
         </Note>
       </Wall>
     </React.Fragment>
