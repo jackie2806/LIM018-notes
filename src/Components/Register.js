@@ -5,19 +5,20 @@ import './Register.css';
 function Register(){
     return(
         <React.Fragment>
-            <div><img src={union} alt='Go back'/></div>
-            <form className='formInputs'>
-            <div>
-            <label> Email</label>
-             <input placeholder='example@gmail.com' type='email'required />
-             <label> Password</label> 
-             <input type='password' required/>           
+            <div className='arrowRegister'><img src={union} alt='Go back'/></div>
+            <h1>Login</h1>
+            <form className='formInputsRegister'>
+            <div className='inputsRegister'>
+            <label className='labelEmailRegister'>Email</label>
+             <input className='inputEmailRegister' placeholder='example@gmail.com' type='email'required />
+             <label className='labelPasswordRegister'>Password</label> 
+             <input className='inputPasswordRegister' type='password' required/>           
 
             </div>
-            <button type='submit' value='Submit'>Log in</button>
-           
+            <button className='buttonRegister' type='submit' value='Submit'>Log in</button>
+              
             </form>        
-            <p>Do you have an account? Please click here</p>
+            <p className='textClick'>Do you have an account? Please click here</p>
            
         </React.Fragment>
     )
