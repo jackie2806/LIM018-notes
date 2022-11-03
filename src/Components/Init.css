@@ -1,0 +1,60 @@
+
+img {
+    position: relative;
+    width: 232px;
+    height: 199px;
+    left: 74px;
+    top: 270px;
+}
+
+.divContainerButtons{
+    width: 100%;
+    display: flex;
+}
+
+.logIn {
+    position: relative;
+    width: 167px;
+    height: 52px;
+    left: 16px;
+    top: 500px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.register {
+    position: relative;
+    width: 167px;
+    height: 52px;
+    left: 35px;
+    top: 500px;
+    background: #000000;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+   /*  display: flex;
+    align-items: center;
+    text-align: center; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
