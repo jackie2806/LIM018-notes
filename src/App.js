@@ -14,13 +14,13 @@ function App() {
     <React.Fragment>
       {/* <Init/> */}
      
-    {/*   <Login>
+      <Login>
 
-      </Login> */}
+      </Login>
 
-       <Register>
+    {/*    <Register>
 
-      </Register> 
+      </Register>  */}
    {/*    <Wall>
         <CreateNoteButton/>
         <Note>

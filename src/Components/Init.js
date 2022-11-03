@@ -4,7 +4,7 @@ import './Init.css';
 function Init () {
  return (
    <React.Fragment>
-      <img src={takeNotes} alt='logo'/>
+      <img className='logo' src={takeNotes} alt='logo'/>
       <div className='divContainerButtons'>
       <button className='logIn'>Log In</button>
       <button className='register'>Register</button>

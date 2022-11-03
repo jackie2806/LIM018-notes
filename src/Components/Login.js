@@ -6,20 +6,21 @@ import './Login.css';
 function Login(){
     return(
         <React.Fragment>
-            <div><img src={union} alt='Go back'/></div>
-            <form className='formInputs'>
-            <div>
-            <label> Email</label>
-             <input placeholder='example@gmail.com' type='email'required />
-             <label> Password</label> 
-             <input type='password' required/>           
+            <div><img className='arrowLogin' src={union} alt='Go back'/></div>
+            <h1>Login</h1>
+            <form className='formInputsLogin'>
+            <div className='inputsLogin'>
+            <label className='labelEmailLogin'> Email</label>
+             <input className='inputEmailLogin' placeholder='example@gmail.com' type='email'required />
+             <label className='labelPasswordLogin'> Password</label> 
+             <input className='inputPasswordLogin' type='password' required/>           
 
             </div>
-            <button type='submit' value='Submit'>Log in</button>
+            <button className='buttonLogin' type='submit' value='Submit'>Log in</button>
            
             </form>        
             <p>-Or log in with Google-</p>
-            <div><img src={logoGoogle} alt='Login Google'/></div>
+            <div><img className='googleLogin' src={logoGoogle} alt='Login Google'/></div>
         </React.Fragment>
     )
 }

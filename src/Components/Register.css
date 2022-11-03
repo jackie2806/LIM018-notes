@@ -1,4 +1,4 @@
-img {
+.arrowRegister {
     position: absolute;
     width: 12.21px;
     height: 11.35px;
@@ -113,7 +113,7 @@ h1{
     align-items: center;
     color: #000000;
 }
-button{
+.buttonRegister{
     position: relative;
     width: 343px;
     height: 52px;

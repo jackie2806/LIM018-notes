@@ -5,8 +5,8 @@ import './Register.css';
 function Register(){
     return(
         <React.Fragment>
-            <div className='arrowRegister'><img src={union} alt='Go back'/></div>
-            <h1>Login</h1>
+            <div><img  className='arrowRegister' src={union} alt='Go back'/></div>
+            <h1>Register</h1>
             <form className='formInputsRegister'>
             <div className='inputsRegister'>
             <label className='labelEmailRegister'>Email</label>
