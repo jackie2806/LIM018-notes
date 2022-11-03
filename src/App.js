@@ -1,24 +1,35 @@
 //import logo from './logo.svg';
 //import './App.css';
 
+
+import React from 'react';
+import {Init} from './Components/Init';
+import {Register} from './Components/Register';
+import {Login} from './Components/Login';
+import {Wall} from './Components/Wall';
+import {CreateNoteButton} from './Components/CreateNoteButton';
+import {Note} from './Components/Note';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img  className="App-logo" alt="logo" />
-        <p>
-           <code>Hola Jackie!!! </code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Init>
+
+      </Init>
+      <Register>
+
+      </Register>
+      <Login>
+
+      </Login>
+      <Wall>
+        <CreateNoteButton/>
+        <Note>
+          
+      
+        </Note>
+      </Wall>
+    </React.Fragment>
+   
   );
 }
 
