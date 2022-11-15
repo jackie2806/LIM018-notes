@@ -12,20 +12,15 @@ import {Note} from './Components/Note';
 function App() {
   return (
     <React.Fragment>
-      {/* <Init/> */}
+     {/*   <Init/> */}
      
-      <Login>
-
-      </Login>
-
-    {/*    <Register>
-
-      </Register>  */}
-   {/*    <Wall>
+       <Login/>
+    
+      {/*<Register/>*/}
+ 
+      {/* <Wall>        
+        <Note/>                
         <CreateNoteButton/>
-        <Note>
-                
-        </Note>
       </Wall> */}
     </React.Fragment>
    
